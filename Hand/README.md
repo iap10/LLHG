@@ -48,6 +48,4 @@ trtexec --onnx=best.onnx --saveEngine=best.engine --fp16
 
 ---
 ## Real Application Code
-```
 Real Application codes are included in Application Folder
-```
