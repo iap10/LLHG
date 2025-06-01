@@ -1,5 +1,7 @@
-I will make code for hand and object detection!
+I will make code for hand and object detection!  
 
+## Basic Class Construction
+- "YoloTRT.py" code is basic class for object detection(for fine-tuned classes) using TensorRT file.
 ---
 ## Model Operation Plan
 we will convert pt file to onnx file to TensorRT file
@@ -31,16 +33,12 @@ trtexec --onnx=best.onnx --saveEngine=best.engine --fp16
 | 7 | Human hand  |
 
 ---
-## Basic Class Construction
-- "YoloTRT.py" code is basic class for object detection(for fine-tuned classes) using TensorRT file.
-
----
 ## Study & Play Judgement Standard
 | Hold | State | 
 |------|----------------------------------|
 | Bottle   | moderate |
 | Toy  | Play |
-| Computer keyboard | 
+| Computer keyboard | moderate |
 | Pen  | Study |
 | Mobile phone  | Play |
 | Computer mouse  | moderate |
