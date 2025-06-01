@@ -40,7 +40,7 @@ trtexec --onnx=best.onnx --saveEngine=best.engine --fp16
 | Bottle   | Moderate | Judge based on Face Result |
 | Toy  | Play | Don't care Face Result and Return Play Signal |
 | Computer keyboard | Moderate | Judge based on Face Result |
-| Pen  | Study | Judge based on Face Result |
+| Pen  | Study | Judge based on Face Result(Priority on Study) |
 | Mobile phone  | Play | Don't care Face Result and Return Play Signal |
 | Computer mouse  | Moderate | Judge based on Face Result |
 | Tablet computer  | Moderate | Judge based on Face Result |
