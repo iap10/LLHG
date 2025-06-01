@@ -14,6 +14,20 @@ trtexec --onnx=best.onnx --saveEngine=best.engine --fp16
 # Fine-tuned object lists
 "Bottle", "Toy", "Computer keyboard", "Pen", "Mobile phone", "Computer mouse", "Tablet computer", "Human hand" <br/>
 
+## Class ID 
+
+| Class ID | Class Name | 
+|------|----------------------------------|
+| 0 | Bottle   |
+| 1 | Toy  |
+| 2 | Computer keyboard | 
+| 3 | Pen  |
+| 4 | Mobile phone  |
+| 5 | Computer mouse  |
+| 6 | Tablet computer  |
+| 7 | Human hand  |
+
+
 Class ID	Class Name                <br/>
 0	        Bottle                    <br/>
 1	        Toy                       <br/>
