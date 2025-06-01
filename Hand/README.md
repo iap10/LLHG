@@ -35,13 +35,13 @@ trtexec --onnx=best.onnx --saveEngine=best.engine --fp16
 
 ---
 ## Study & Play Judgement Standard
-| Hold | State | Result |
-|------|----------------------------------|---------------|
-| Bottle   | Moderate | Judge based on Face Result |
-| Toy  | Play | Don't care Face Result and Return Play Signal |
-| Computer keyboard | Moderate | Judge based on Face Result |
-| Pen  | Study | Judge based on Face Result(Priority on Study) |
-| Mobile phone  | Play | Don't care Face Result and Return Play Signal |
-| Computer mouse  | Moderate | Judge based on Face Result |
-| Tablet computer  | Moderate | Judge based on Face Result |
-| Human hand(not hold)  | Moderate | Judge based on Face Result |
+| Hold | State | Result | Output |
+|------|----------------------------------|---------------|----------------|
+| Bottle   | Moderate | Judge based on Face Result | 0 |
+| Toy  | Play | Don't care Face Result and Return Play Signal | 1 |
+| Computer keyboard | Moderate | Judge based on Face Result | 0 |
+| Pen  | Study | Judge based on Face Result(Priority on Study) | 2 |
+| Mobile phone  | Play | Don't care Face Result and Return Play Signal | 1 |
+| Computer mouse  | Moderate | Judge based on Face Result | 0 |
+| Tablet computer  | Moderate | Judge based on Face Result | 0 |
+| Human hand(not hold)  | Moderate | Judge based on Face Result | 0 |
