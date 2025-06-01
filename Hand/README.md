@@ -33,3 +33,16 @@ trtexec --onnx=best.onnx --saveEngine=best.engine --fp16
 ---
 ## Basic Class Construction
 - "YoloTRT.py" code is basic class for object detection(for fine-tuned classes) using TensorRT file.
+
+---
+## Study & Play Judgement Standard
+| Hold | State | 
+|------|----------------------------------|
+| Bottle   | moderate |
+| Toy  | Play |
+| Computer keyboard | 
+| Pen  | Study |
+| Mobile phone  | Play |
+| Computer mouse  | moderate |
+| Tablet computer  | moderate |
+| Human hand(not hold)  | moderate |
