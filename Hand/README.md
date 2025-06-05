@@ -31,10 +31,10 @@ trtexec --onnx=best.onnx --saveEngine=best.engine --fp16
 | 4 | phone  |
 | 5 | mouse  |
 | 6 | Tablet |
-| 8 | paper  |
-| 9 | book  |
-| 10 | tumbler |
-| 11 | hand  |
+| 7 | paper  |
+| 8 | book  |
+| 9 | tumbler |
+| 10 | hand  |
 
 ---
 ## Study & Play Judgement Standard
