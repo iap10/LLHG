@@ -26,24 +26,30 @@ trtexec --onnx=best.onnx --saveEngine=best.engine --fp16
 |------|----------------------------------|
 | 0 | Bottle   |
 | 1 | Toy  |
-| 2 | Computer keyboard | 
+| 2 | Keyboard | 
 | 3 | Pen  |
-| 4 | Mobile phone  |
-| 5 | Computer mouse  |
-| 6 | Tablet computer  |
-| 7 | Human hand  |
+| 4 | phone  |
+| 5 | mouse  |
+| 6 | Tablet |
+| 8 | paper  |
+| 9 | book  |
+| 10 | tumbler |
+| 11 | hand  |
 
 ---
 ## Study & Play Judgement Standard
 | Hold | State | Result | Output |
 |------|----------------------------------|---------------|----------------|
-| Bottle   | Moderate | Judge based on Face Result | 0 |
+| Bottle | Moderate | Judge based on Face Result | 0 |
 | Toy  | Play | Don't care Face Result and Return Play Signal | 1 |
-| Computer keyboard | Moderate | Judge based on Face Result | 0 |
+| Keyboard | Moderate | Judge based on Face Result | 0 |
 | Pen  | Study | Judge based on Face Result(Priority on Study) | 2 |
-| Mobile phone  | Play | Don't care Face Result and Return Play Signal | 1 |
-| Computer mouse  | Moderate | Judge based on Face Result | 0 |
-| Tablet computer  | Moderate | Judge based on Face Result | 0 |
+| phone  | Play | Don't care Face Result and Return Play Signal | 1 |
+| mouse  | Moderate | Judge based on Face Result | 0 |
+| Tablet  | Moderate | Judge based on Face Result | 0 |
+| paper  | Study | Judge based on Face Result(Priority on Study) | 2 |
+| book  | Study | Judge based on Face Result(Priority on Study) | 2 |
+| tumbler  | Moderate | Judge based on Face Result | 0 |
 | Human hand(not hold)  | Moderate | Judge based on Face Result | 0 |
 
 ---
