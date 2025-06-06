@@ -55,3 +55,6 @@ trtexec --onnx=best.onnx --saveEngine=best.engine --fp16
 ---
 ## Real Application Code
 Real Application codes are included in func Folder
+
+
+pip install https://files.pythonhosted.org/packages/.../h5py-3.1.0-cp36-cp36m-manylinux1_x86_64.whl
